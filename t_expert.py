@@ -5,10 +5,10 @@ import requests
 import numpy as np
 
 # Set up OpenAI API credentials
-openai.api_key = "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"
+openai.api_key = "key"
 
 # Set up OpenCage Geocoding API credentials
-opencage_api_key = "bde59b37837e4d4e96f7ef9116148d7d"
+opencage_api_key = "key"
 
 # Function to generate a travel plan using OpenAI
 def generate_travel_plan(location, duration, budget, enjoyment_type, num_travelers):
